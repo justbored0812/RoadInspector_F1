@@ -1,0 +1,42 @@
+.pwa-install-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(8, 15, 30, 0.97);
+  backdrop-filter: blur(12px);
+}
+
+.pwa-install-card {
+  width: min(100%, 390px);
+  padding: 34px 28px 28px;
+  text-align: center;
+  color: var(--text);
+  background: #101b31;
+  border: 1px solid rgba(79, 140, 255, 0.35);
+  border-radius: 18px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+}
+
+.pwa-install-logo {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 18px;
+  border-radius: 14px;
+  color: #fff;
+  background: var(--blue);
+  font-size: 27px;
+  font-weight: 800;
+}
+
+.pwa-install-card h2 { margin: 0 0 10px; font-size: 22px; }
+.pwa-install-card p { margin: 0 0 24px; color: var(--muted); font-size: 14px; line-height: 1.55; }
+.pwa-install-button, .pwa-later-button { width: 100%; border-radius: 9px; padding: 12px 16px; font: inherit; font-weight: 700; cursor: pointer; }
+.pwa-install-button { border: 0; color: #fff; background: var(--blue); }
+.pwa-install-button:disabled { cursor: default; opacity: 0.55; }
+.pwa-later-button { margin-top: 10px; border: 1px solid var(--border); color: var(--text); background: transparent; }
+.pwa-ios-guide { display: grid; gap: 10px; margin-bottom: 20px; padding: 16px; border-radius: 10px; text-align: left; color: var(--text); background: rgba(255, 255, 255, 0.05); font-size: 13px; line-height: 1.4; }
