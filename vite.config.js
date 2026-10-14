@@ -13,6 +13,5 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  // Relative base: works under any GitHub Pages repo name (no hardcoded path)
-  base: './',
+  base: '/RoadInspector_F1/',
 })
